@@ -1,0 +1,40 @@
+{
+  "name": "@danielgietmann/react-cookiebot",
+  "version": "0.0.1",
+  "private": false,
+  "description": "The Cookiebot Consent Banner Loader is a streamlined script designed to effortlessly integrate the Cookiebot consent management platform into your website. This lightweight, GDPR-compliant solution ensures that your site adheres to international privacy regulations by managing and documenting visitor consents for cookies and tracking technologies. Easy to implement and operate, the Cookiebot Loader enhances user trust by providing clear options to accept or reject cookies, maintaining a balance between compliance and user experience.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "Cookiebot Loader",
+    "GDPR Compliance",
+    "Cookie Consent Management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielGietmann/umami-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielGietmann/umami-react/issues"
+  },
+  "author": "Daniel Gietmann <hello@danielgietmann.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/react": "^18.2.64",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
