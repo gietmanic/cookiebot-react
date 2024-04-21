@@ -1,4 +1,4 @@
-# React Simple Umami Analytics Loader
+# React Simple Cookiebot Consent Banner Loader
 
 The Cookiebot Consent Banner Loader is a streamlined script designed to effortlessly integrate the Cookiebot consent management platform into your website. This lightweight, GDPR-compliant solution ensures that your site adheres to international privacy regulations by managing and documenting visitor consents for cookies and tracking technologies. Easy to implement and operate, the Cookiebot Loader enhances user trust by providing clear options to accept or reject cookies, maintaining a balance between compliance and user experience.
 ## Features
@@ -26,7 +26,7 @@ In the Main Layout File
 Replace GTag with your GTag ID and GAnalytics with your Analytics Id
 
 ```javascript
-import {UmamiAnalytics} from "@danielgietmann/react-cookiebot";
+import {CookieBotLoader} from "@danielgietmann/react-cookiebot";
 
 function App() {
   return (
