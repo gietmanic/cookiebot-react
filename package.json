@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanielGietmann/umami-react.git"
+    "url": "https://github.com/DanielGietmann/cookiebot-react.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielGietmann/umami-react/issues"
+    "url": "https://github.com/DanielGietmann/cookiebot-react/issues"
   },
   "author": "Daniel Gietmann <hello@danielgietmann.de>",
   "license": "MIT",
