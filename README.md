@@ -26,7 +26,7 @@ In the Main Layout File
 Replace GTag with your GTag ID and GAnalytics with your Analytics Id
 
 ```javascript
-import {CookieBotLoader} from "@danielgietmann/react-cookiebot";
+import CookieBotLoader from "@danielgietmann/react-cookiebot";
 
 function App() {
   return (
