@@ -11,7 +11,7 @@ The Cookiebot Consent Banner Loader is a streamlined script designed to effortle
 Install  with npm
 
 ```bash
-  npm i @gietmanic/react-cookiebot
+  npm i @danielgietmann/react-cookiebot
 ```
 
 ## Usage/Examples
@@ -26,7 +26,7 @@ In the Main Layout File
 Replace GTag with your GTag ID and GAnalytics with your Analytics Id
 
 ```javascript
-import CookieBotLoader from "@gietmanic/react-cookiebot";
+import CookieBotLoader from "@danielgietmann/react-cookiebot";
 
 function App() {
   return (
